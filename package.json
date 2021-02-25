@@ -1,0 +1,14 @@
+{
+  "name": "sls-ts",
+  "private": true,
+  "version": "0.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "2.25.2",
+    "@types/node": "14.14.31",
+    "serverless": "2.27.1"
+  }
+}
