@@ -8,6 +8,10 @@ const serverlessConfiguration: AWS = {
   provider: {
     name: "aws",
     runtime: "nodejs14.x",
+    apiGateway: {
+      shouldStartNameWithService: true,
+    },
+    lambdaHashingVersion: "20201221",
   },
   functions: {
     hello: {
